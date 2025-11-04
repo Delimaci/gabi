@@ -1,6 +1,6 @@
 # gabidesign.uk (v1)
 
-Welcome to my portfolio project built with [Next.js](https://nextjs.org) and TypeScript! This project showcases my skills and experience as a software engineer, highlighting key projects and technologies I have worked with.
+Welcome to my portfolio project built with [Next.js](https://nextjs.org) and TypeScript! This project showcases my skills and experience as a data engineer, highlighting key projects and technologies I have worked with.
 
 ## Table of Contents
 
@@ -17,12 +17,14 @@ Welcome to my portfolio project built with [Next.js](https://nextjs.org) and Typ
 To get started with the project, you'll need to clone the repository and install the necessary dependencies. Here’s how you can do that:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/yourusername/your-portfolio.git
    cd your-portfolio
    ```
 
 2. **Install dependencies**:
+
    ```bash
    npm install
    # or
@@ -32,6 +34,7 @@ To get started with the project, you'll need to clone the repository and install
    ```
 
 3. **Run the development server**:
+
    ```bash
    npm run dev
    # or

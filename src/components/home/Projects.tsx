@@ -3,7 +3,7 @@ const Projects = () => {
     <section className="w-full max-w-2xl mt-40 p-2">
       <h2 className="text-3xl font-semibold mb-4 text-white">Projects</h2>
       <p className="text-base font-normal leading-8 mb-6">
-        My journey as a Software Engineer has been filled with challenges and
+        My journey as a data Engineer has been filled with challenges and
         triumphs in the healthcare domain. Here are some of the key projects
         that have shaped my skills and understanding of technology:
       </p>

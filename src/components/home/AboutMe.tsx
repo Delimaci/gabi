@@ -3,10 +3,9 @@ const AboutMe = () => {
     <section className="w-full max-w-2xl ">
       <h2 className="text-3xl text-white font-semibold mb-4">About Me</h2>
       <p className="text-base font-normal  leading-8 mb-10">
-        I am currently a Software Engineer in the healthcare sector. I have
-        recently graduated with a First-Class Honours in Bachelor&apos;s of
-        Science in Computer Science. My primary technologies I have been working
-        with are:
+        I am currently a data engineer in the healthcare sector. I have recently
+        graduated with a First-Class Honours in Bachelor&apos;s of Science in
+        Computer Science. My primary technologies I have been working with are:
       </p>
       <ul className="flex flex-wrap gap-2 md:justify-between">
         <li className="flex items-center mb-2 hover:shadow-[0_0_5px_#ED9FBE,0_0_15px_#9F86C1] p-2 transition-shadow duration-300 cursor-default rounded-full">

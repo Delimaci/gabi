@@ -3,6 +3,7 @@ import AboutMe from "@/components/home/AboutMe";
 import Projects from "@/components/home/Projects";
 import Experience from "@/components/home/Experience";
 import { FaEnvelope } from "react-icons/fa";
+import PetProjects from "@/components/home/PetProjects";
 // import Cinnamon from "@/components/python/Cinnamon";
 
 export default function Home() {
@@ -44,11 +45,11 @@ export default function Home() {
             {/* <Cinnamon /> */}
           </header>
           <p className="text-base font-normal text-center leading-8">
-            I&apos;m a software engineer based in the United Kingdom with a
-            passion for developing and maintaining high-impact, complex
-            applications. I am captivated by the latest advancements in
-            scientific inquiry, closely following pioneering research that
-            reshapes the boundaries of human knowledge.
+            I&apos;m a data engineer based in the United Kingdom with a passion
+            for developing and maintaining high-impact, complex applications. I
+            am captivated by the latest advancements in scientific inquiry,
+            closely following pioneering research that reshapes the boundaries
+            of human knowledge.
           </p>
 
           <div className="mx-auto text-center mt-10 justify-center">
@@ -70,6 +71,9 @@ export default function Home() {
         <section id="projects" className="mt-0 md:mt-0">
           <Projects />
         </section>
+        {/* <section id="pet-projects" className="mt-0 md:mt-0">
+          <PetProjects />
+        </section> */}
         {/* Projects Section */}
         {/* <section className="w-full max-w-2xl mb-16">
         <h2 className="text-2xl font-semibold mb-4">Projects</h2>

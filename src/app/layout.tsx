@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next";
+// import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,11 +17,11 @@ const geistMono = localFont({
 // Enhanced metadata for SEO
 export const metadata: Metadata = {
   title: "Gabi's Portfolio",
-  description: "Explore Gabi's projects and skills in software engineering.",
+  description: "Explore Gabi's projects and skills in data engineering.",
   keywords: [
     "Gabi",
     "portfolio",
-    "software engineering",
+    "data engineering",
     "Next.js developer",
     "React developer",
     "web development",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gabi&apos;s Portfolio",
     description:
-      "Discover Gabi&apos;s projects in software engineering, specializing in modern web development with Next.js.",
+      "Discover Gabi&apos;s projects in data engineering, specializing in modern web development with Next.js.",
     url: "https://gabidesign.uk",
     siteName: "Gabi&apos;s Portfolio",
 
@@ -53,7 +53,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Analytics />
+        {/* <Analytics /> */}
         <SpeedInsights />
       </body>
     </html>
